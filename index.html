@@ -1,0 +1,10 @@
+<!doctype html>
+<meta charset="utf-8">
+<title>NOXID Nano Echo</title>
+<meta name="viewport" content="width=device-width,initial-scale=1">
+<style>body{font-family:system-ui,sans-serif;max-width:760px;margin:48px auto;padding:0 20px;line-height:1.55}code{word-break:break-all;background:#f3f3f3;padding:2px 5px;border-radius:4px}</style>
+<h1>NOXID Nano Echo</h1>
+<p>A tiny pay-per-call HTTP service on Nano mainnet.</p>
+<p>Paid endpoint: <code>/api/echo?msg=hello</code></p>
+<p>Free status: <code>/api/status</code></p>
+<p>Unpaid calls return HTTP 402 with price, address, network and retry header instructions. Paid calls are verified against a public Nano block verifier and return the requested echo payload.</p>

@@ -1,0 +1,12 @@
+{
+  "name": "noxid-nano-seller",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Tiny Nano-paid HTTP echo service for seller verification.",
+  "scripts": {
+    "test": "node --test"
+  },
+  "engines": {
+    "node": ">=20"
+  }
+}
